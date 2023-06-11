@@ -1,4 +1,4 @@
-package leetcode周赛.week346;
+package week346;
 
 public class T2 {
     public static void main(String[] args) {

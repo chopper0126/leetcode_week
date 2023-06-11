@@ -1,4 +1,4 @@
-package leetcode周赛.week331;
+package week331;
 
 import java.util.PriorityQueue;
 
@@ -23,8 +23,8 @@ public class T1_331 {
             max=0;
             maxIndex =-1;
         }
-        for (int j=0;j<gifts.length;j++){
-            res+=gifts[j];
+        for (int gift : gifts) {
+            res += gift;
         }
         return res;
     }

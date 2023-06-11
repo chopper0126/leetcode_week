@@ -1,4 +1,4 @@
-package leetcode周赛.week335;
+package week335;
 
 public class FindValidSplit_335 {
     public int findValidSplit(int[] nums) {

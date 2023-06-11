@@ -1,4 +1,4 @@
-package leetcode周赛.week335;
+package week335;
 
 public class PassThePillow_335 {
     public int passThePillow(int n, int time) {

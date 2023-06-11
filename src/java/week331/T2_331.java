@@ -1,4 +1,4 @@
-package leetcode周赛.week331;
+package week331;
 
 import java.util.HashSet;
 
@@ -7,7 +7,7 @@ public class T2_331 {
         int[] res = new int[queries.length];
         int[] list = new int[words.length];
         //建立元音字母表hashset
-        HashSet<Character> hashSet = new HashSet<Character>();
+        HashSet<Character> hashSet = new HashSet<>();
         hashSet.add('a');
         hashSet.add('e');
         hashSet.add('i');
@@ -48,7 +48,7 @@ public class T2_331 {
         int[] res = new int[queries.length];
         int[] list = new int[words.length + 1];//前缀表
         //建立元音字母表hashset
-        HashSet<Character> hashSet = new HashSet<Character>();
+        HashSet<Character> hashSet = new HashSet<>();
         hashSet.add('a');
         hashSet.add('e');
         hashSet.add('i');
@@ -65,7 +65,7 @@ public class T2_331 {
             }
         }
         //找下表，并求和
-        int sum = 0;
+
         for (int i = 0; i < queries.length; i++) {
             res[i] = list[queries[i][1]+1]-list[queries[i][0]];
         }

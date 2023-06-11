@@ -1,6 +1,6 @@
-package leetcode周赛.week331;
+package week331;
 
-import leetcode周赛.week331.T1_331;
+
 
 import java.util.Arrays;
 

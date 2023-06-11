@@ -1,4 +1,4 @@
-package leetcode周赛.week346;
+package week346;
 
 import java.util.Stack;
 
